@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(223, 223, 223);
+}
+
+header {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  justify-content: space-between;
+  box-shadow: 0 0 20px black;
+  background-color: rgb(0, 107, 14);
+  border-bottom: 2px solid black;
+}
+
+img {
+  margin: 15px;
+  display: flex;
+  border-radius: 4px 4px 6px black;
+}
+
+nav {
+  margin: 20px auto;
+}
+
+a {
+  font-size: 20px;
+  font-family: outfit;
+  color: white;
+  text-decoration: none;
+  margin: 50px;
+  cursor: pointer;
+  text-shadow: 4px 4px 8px black;
+}
+
+#entrar {
+  margin: auto 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 75px;
+  height: 35px;
+  line-height: 35px;
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: outfit;
+  background-color: rgb(253, 252, 201);
+  color: rgb(0, 95, 0);
+  border: black;
+  border-width: 50px;
+  border-radius: 2px;
+  box-shadow: 0 0 8px rgb(37, 37, 37);
+  cursor: pointer;
+  text-shadow: 0 0 0;
+  transition: transform 50ms linear, opacity 100ms ease-in-out;
+}
+
+#entrar:hover {
+  transform: scale(1.08);
+  opacity: 0.9;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+}
+
+main hr {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.section-1 {
+  background-color: rgb(207, 255, 251);
+  margin: 0;
+  padding: 0;
+  border-bottom: 2px solid black;
+}
+
+main h1 {
+  display: block;
+  height: 300px;
+  line-height: 300px;
+  text-align: center;
+  margin: 0;
+  padding: 50px;
+  font-size: 40px;
+  font-family: "Playpen Sans", cursive;
+  color: rgb(0, 139, 81);
+  text-shadow: 0 0 6px rgb(0, 139, 81);
+}
+
+.box-container {
+  display: flex;
+  background-color: rgb(253, 252, 201);
+  justify-content: space-evenly;
+  padding: 100px 0;
+}
+
+.misson {
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: 4px 4px 20px black;
+  cursor: pointer;
+}
+
+.vision {
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: 4px 4px 20px black;
+  cursor: pointer;
+}
+
+.values {
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: 4px 4px 20px black;
+  cursor: pointer;
+}

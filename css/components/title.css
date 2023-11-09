@@ -1,0 +1,12 @@
+main h1 {
+    display: block;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+    font-size: 50px;
+    font-family: 'Gochi Hand', cursive;
+    color: rgb(0, 139, 81);
+    text-shadow: 2px 2px 4px black;
+  }

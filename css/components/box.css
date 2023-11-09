@@ -1,0 +1,7 @@
+#box-h1 {
+    background-color: gray;
+    width: 600px;
+    height: 320px;    
+    border-radius: 0 55px 0;
+    box-shadow: 4px 4px 6px black;
+}

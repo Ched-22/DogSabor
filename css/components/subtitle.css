@@ -1,7 +1,7 @@
 h2 {
-    display: flex;
     font-size: 25px;
     font-family: outfit;
     text-shadow: 1px 1px 3px black;
     color: #6BA92C;
+    margin: 0;
 }

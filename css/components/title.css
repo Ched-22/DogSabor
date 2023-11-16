@@ -3,7 +3,7 @@ main h1 {
     line-height: 300px; */
     font-size: 100px;
     font-family: 'Gochi Hand', cursive;
-    color: rgb(0, 139, 81);
+    color: #006633;
     text-shadow: 2px 2px 4px black;
     margin: 0;
   }

@@ -1,0 +1,9 @@
+.action {
+    font-size: 20px;
+    font-family: outfit;
+    color: #D6FFD8;
+    text-decoration: none;
+    margin: 50px;
+    cursor: pointer;
+    text-shadow:  #D6FFD8;
+  }

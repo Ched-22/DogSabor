@@ -1,0 +1,28 @@
+.entrar {
+    margin: auto 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 75px;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: outfit;
+    background-color: #CBFFCD;
+    color: #006633;
+    border: black;
+    border-width: 50px;
+    border-radius: 2px;
+    box-shadow: 0 0 8px rgb(37, 37, 37);
+    cursor: pointer;
+    text-shadow: 0 0 0;
+    transition: transform 50ms linear, opacity 100ms ease-in-out;
+    text-decoration: none;
+  }
+  
+  .entrar:hover {
+    transform: scale(1.08);
+    opacity: 0.9;
+  }

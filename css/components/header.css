@@ -4,6 +4,10 @@
     margin: 0;
     justify-content: space-between;
     box-shadow: 0 0 20px white;
-    background-color: #006633;
+    background-color: #3F8DB7;
     border-bottom: 1px solid black;
+  }
+
+  nav {
+    margin: 20px auto;
   }

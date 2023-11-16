@@ -1,13 +1,14 @@
 .box-h1 {
-    /* background-color: #CBFFCD; */
-    background-color: #D6FFD8;
+    background-color: #D7EFFC;
     width: 540px;
+    height: 130px;
     border-radius: 0 55px 55px;
     box-shadow: 6px 6px 10px black;
-    margin: 100px;
     padding: 50px 30px;
     text-align: center;
     border-width: 10px;
     border-color: black;
 }
+
+
 

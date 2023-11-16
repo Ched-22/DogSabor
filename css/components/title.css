@@ -1,9 +1,9 @@
-main h1 {
+.title {
     /* height: 200px;
     line-height: 300px; */
     font-size: 100px;
     font-family: 'Gochi Hand', cursive;
-    color: #006633;
+    color: #3F8DB7;
     text-shadow: 2px 2px 4px black;
     margin: 0;
   }

@@ -3,7 +3,7 @@
     background-image: url(../../Imagens/dogbg.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 600px;
+    height: 700px;
     padding-top: 40px;
     padding-left: 40px;
 }
@@ -12,6 +12,7 @@
     display: flex;
     flex-direction: column;
     width: 630px;
+    margin: 0;
 }
 
 .banner .box-h1 {
@@ -24,7 +25,9 @@
 }
 
 .banner .description {
-    width: 500px;
+    width: 300px;
     text-align: center;
     justify-content: center;
+    margin: 100px auto;
+    font-family: montaga;
 }

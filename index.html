@@ -21,17 +21,22 @@
         rel="stylesheet"
       />
       <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Montaga&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="css/style.css" />
       <link rel="stylesheet" href="css/components/header.css">
-      <link rel="stylesheet" href="css/components/title.css">
+      <link rel="stylesheet" href="css/components/main-title.css">
       <link rel="stylesheet" href="css/components/subtitle.css">
       <link rel="stylesheet" href="css/components/box.css">
       <link rel="stylesheet" href="css/components/button.css">
       <link rel="stylesheet" href="css/components/action.css">
       <link rel="stylesheet" href="css/components/index.css">
-      <link rel="stylesheet" href="css/components/banner.css">    
+      <link rel="stylesheet" href="css/components/banner.css">
+      <link rel="stylesheet" href="css/components/section.css">
+      <link rel="stylesheet" href="css/components/produtos.css">    
   </head>
   <body>
     <header class="header">
@@ -59,7 +64,7 @@
         <section class="banner">
           <div class="wrapper">
             <div class="box-h1">
-              <h1 class="title">DogSabor</h1>
+              <h1 class="main-title">DogSabor</h1>
               <h2 class="subtitle">Alimentação Natural Para Seu Pet</h2>
             </div>     
             <div class="navigation">   
@@ -72,42 +77,71 @@
         </div>
       </section>
       <hr />
-      <div class="section-2">
-        <div class="box-container">
-          <div class="box-1">
-            <a class="box-1-mission" href="sobrenos.html">
+      <section class="section">
+        <h2 class="main-title -second">Produtos</h2>
+        <dl class="produtos">
+          <dt class="title">Ração</dt>
+          <dd class="icon">
+            <img src="/Imagens/racao2-icon.png"
+             alt="ração" 
+             style="width: 85px; height: 85px">
+          </dd>
+          <dd>Veja todos os tipos de ração aqui!</dd>
+          <dt>Ossinhos</dt>
+          <dd>
+            <img src="/Imagens/osso-icon.png"
+             alt="ossinhos" 
+             style="width: 85px; height: 85px">
+          </dd>
+          <dd>Veja todos os tipos de ração aqui!</dd>
+          <dt>Brinquedos</dt>
+          <dd>
+            <img src="/Imagens/brinquedo-icon.png"
+             alt="Brinquedos" 
+             style="width: 85px; height: 85px">
+          </dd>
+          <dd>Veja todos os tipos de ração aqui!</dd>
+        </dl>
+        <!-- <div class="section-2">
+          <div class="box-container">
+            <div class="box-1">
+              <a class="box-1-mission" href="sobrenos.html">
+                <img
+                  class="misson"
+                  src="Imagens/DS.missão.png"
+                  alt="misson"
+                  style="width: 350px; height: 350px"
+                />
+              </a>
+            </div>
+            <div class="box-2">
               <img
-                class="misson"
-                src="Imagens/DS.missão.png"
-                alt="misson"
+                class="vision"
+                src="Imagens/DS.visão.png"
+                alt="vision"
                 style="width: 350px; height: 350px"
               />
-            </a>
+            </div>
+            <div class="box-3">
+              <img
+                class="values"
+                src="Imagens/DS.valores.png"
+                alt="values"
+                style="width: 350px; height: 350px"
+              />
+            </div>
           </div>
-          <div class="box-2">
-            <img
-              class="vision"
-              src="Imagens/DS.visão.png"
-              alt="vision"
-              style="width: 350px; height: 350px"
-            />
-          </div>
-          <div class="box-3">
-            <img
-              class="values"
-              src="Imagens/DS.valores.png"
-              alt="values"
-              style="width: 350px; height: 350px"
-            />
-          </div>
-        </div>
-      </div>
+        </div> -->
+
+      </section>
       <hr />
-      <div class="section-3">
-        <h1>Lorem ipsum dolor </h1>
-        <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla sequi perspiciatis consequatur a, natus culpa debitis delectus excepturi aspernatur rem praesentium ea. Optio sit voluptatibus eligendi, dicta ullam repudiandae cupiditate!</h2>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nostrum quos. Cupiditate nihil officiis, quia tempore corporis, dolore quasi perspiciatis molestiae ea quae modi error, eos odio animi ipsum debitis?</h3>
-      </div>
+      <section class="section">
+        <div class="section-3">
+          <h1>Lorem ipsum dolor </h1>
+          <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla sequi perspiciatis consequatur a, natus culpa debitis delectus excepturi aspernatur rem praesentium ea. Optio sit voluptatibus eligendi, dicta ullam repudiandae cupiditate!</h2>
+          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nostrum quos. Cupiditate nihil officiis, quia tempore corporis, dolore quasi perspiciatis molestiae ea quae modi error, eos odio animi ipsum debitis?</h3>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>

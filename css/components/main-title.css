@@ -1,4 +1,4 @@
-.title {
+.main-title {
     /* height: 200px;
     line-height: 300px; */
     font-size: 100px;
@@ -7,3 +7,10 @@
     text-shadow: 2px 2px 4px black;
     margin: 0;
   }
+
+.main-title.-second {
+  color: white;
+  text-shadow: 4px 4px 8px black;
+  text-align: center;
+  font-size: 80px;
+}

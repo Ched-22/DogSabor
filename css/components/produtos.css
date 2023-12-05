@@ -1,0 +1,17 @@
+.produtos {
+    display: flex;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.produtos .icon {
+    margin-right: 20px;
+}
+
+.produtos .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

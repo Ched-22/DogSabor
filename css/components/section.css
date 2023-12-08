@@ -1,5 +1,9 @@
 .section {
-    background-color: #FF96C3;
+    background-color: #FFC2DC;
     padding-top: 50px;
     padding-bottom: 100px;
+}
+
+.section.-second {
+    background-color: black;
 }

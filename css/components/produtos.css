@@ -1,9 +1,11 @@
 .produtos {
     display: flex;
+    align-items: center;
     font-family: 'Gochi Hand', cursive;
     font-size: 20px;
     color: white;
     text-shadow: 2px 2px 4px black;
+    justify-content: space-evenly;
 }
 
 .produtos .icon {
